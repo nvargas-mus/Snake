@@ -1,0 +1,53 @@
+
+h1{
+  text-align: center;
+}
+
+/* SnakeGame.css */
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.play-area {
+  position: relative;
+}
+
+.snake-part {
+  position: absolute;
+}
+
+.apple {
+  position: absolute;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 15px 30px; 
+  font-size: 18px; 
+  cursor: pointer;
+  background-color: #e8710f; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+}
+
+
+    
